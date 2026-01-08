@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 2.4rem; /* un peu plus grand */
+    color: #001f3f; /* bleu marine */
+}
+
+/* Tagline dans l'en-tête */
+header p {
+    font-size: 1.6rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 8px 0 0 0;
+}
+
+header .photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+/* Titres et contenus stylés en bleu marine pour Compétences et Expériences */
+#competences h2,
+#experiences h2,
+#projets h2 {
+    color: #001f3f; /* bleu marine */
+    border-bottom-color: #001f3f;
+    letter-spacing: 0.5px;
+}
+
+#competences ul li,
+#experiences ul li {
+    background: rgba(0, 31, 63, 0.06);
+    border-left: 4px solid #001f3f;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+
+.projets-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projet {
+    width: 250px;
+    text-align: center;
+}
+
+.projet h3 {
+    color: #001f3f; /* bleu marine */
+}
+
+.projet img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
